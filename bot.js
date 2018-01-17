@@ -19,10 +19,3 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
-
-client.on('message', message => {
-    if(message.content === 'Fuck'){
-        message.reply('When and where?' );
-    }
-
-});
